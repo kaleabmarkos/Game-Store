@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\GameStore\GameStore\bin\Debug\net8.0\GameStore.exe
+C:\Users\hp\Desktop\GameStore\GameStore\bin\Debug\net8.0\GameStore.deps.json
+C:\Users\hp\Desktop\GameStore\GameStore\bin\Debug\net8.0\GameStore.runtimeconfig.json
+C:\Users\hp\Desktop\GameStore\GameStore\bin\Debug\net8.0\GameStore.dll
+C:\Users\hp\Desktop\GameStore\GameStore\bin\Debug\net8.0\GameStore.pdb
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.AssemblyInfo.cs
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.dll
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\refint\GameStore.dll
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.pdb
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\GameStore.genruntimeconfig.cache
+C:\Users\hp\Desktop\GameStore\GameStore\obj\Debug\net8.0\ref\GameStore.dll
