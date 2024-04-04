@@ -55,6 +55,20 @@ namespace StoreNS{
             }
 
         }
+        
+        public void Start() {
+            Console.Clear();
+            Introduction();
+            Selection();
+
+            if  (selected != -1)
+            {
+                Payment();
+                Change();
+                Deliver();
+            }
+        }
+        
         protected virtual void Payment(){
             int twenties;
             int tens;
