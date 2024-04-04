@@ -3,44 +3,44 @@ class Program
 {
     static void Main(string[] args)
     {
-        while(true)
+      List<Game> PS5 = new List<Game>
         {
-            Console.WriteLine("Select a console game system");
-            Console.WriteLine("1. PS5");
-            Console.WriteLine("2. Switch");
-            Console.WriteLine("3. Exit");
-            int choice;
-            while(!int.TryParse(Console.ReadLine(), out choice) || choice < 1|| choice > 3)
-            {
-                Console.WriteLine("Invalid choice. Please try again.");
-            }
+            new Game("Call of Duty", 54, 3),
+            new Game("Elden Ring", 50, 4),
+            new Game("Horizon", 46, 5),
+            new Game("Uncharted",57, 2)
+        };
+        List<Game> Switch = new List<Game>
+        {
+            new Game("Animal Crossing", 46, 3),
+            new Game("Link's Awakening", 50, 5),
+            new Game("Pokemon Legends", 57, 1)
+        };
 
-            if (choice == 3)
-            {
-                break;
-            }
+        PS5 ps5 = new PS5(PS5);
+        Switch switchobj = new Switch(Switch);
 
-            Platform? platform=null;
-            switch (choice)
-            {
-                case 1:
-                    platform = new PS5();
-                    break;
-                case 2:
-                    platform = new Switch();
-                    break;
+        string ? key = "0";
 
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("Hello, would you like to shop PS5 games or Switch games");
+            Console.WriteLine("1: PS5");
+            Console.WriteLine("2: Switch");
+            Console.WriteLine("3: Exit");
+
+            key = Console.ReadLine();
+            if (key == "1")
+            {
+                {ps5.Start();}
             }
-            if(platform != null){
-            platform.Introduction();
-            int price = platform.Selection();
-            platform.Payment(price);
-            platform.Deliver();
-            Console.WriteLine("Thank you for using the console gamestore.");
+            else if(key == "2")
+            {
+                {switchobj.Start();}
             }
-            else{
-                Console.WriteLine("Invalid choice. Exiting...");
-            }
-        }
+        }while(key != "3");
+
+        Console.WriteLine("Have a nice day");
     }
 }
