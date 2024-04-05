@@ -69,11 +69,11 @@ namespace StoreNS{
             }
         }
         
-        protected virtual void Payment(){
+       protected virtual void Payment(){
             int twenties;
             int tens;
 
-            Console.WriteLine("Enter your payment here (accepts 10 and 20 dollar bills.)");
+            Console.WriteLine($"Enter your payment here (accepts 10 and 20 dollar bills). Total is ${Games[selected].Price}.");
             Console.WriteLine("How many 20$ bills: \t");
             twenties = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("How many 10$ bills: \t");
